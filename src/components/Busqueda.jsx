@@ -13,7 +13,7 @@ const Busqueda = () => {
     const proyectosFiltrados = busqueda === '' ? [] : proyectos.filter(proyecto => proyecto.nombre.toLowerCase().includes(busqueda.toLowerCase()))
     
     return (
-        <Transition.Root show={ buscador } as={Fragment} afterLeave={ () => setBusqueda('')  }>
+        <Transition.Root show={ buscador } as={Fragment} afterLeave={() => setBusqueda('')}>
             <Dialog as="div" className="fixed inset-0 z-10 overflow-y-auto mt-20 p-4 sm:p-20 md:p-20" onClose={ handleBuscador }>
                 <Transition.Child
                     as={Fragment}
@@ -39,7 +39,7 @@ const Busqueda = () => {
                 <Combobox
                     as="div"
                     className="mx-auto max-w-xl transform divide-y divide-gray-100 overflow-hidden rounded-xl bg-white shadow-2xl ring-1 ring-black ring-opacity-5 transition-all"
-                    onChange={ (proyecto) => (window.location = `/proyectos/${proyecto._id}`) }
+                    onChange={ (proyecto) => (window.location=`/proyectos/${proyecto._id}`) }
                 >
                     <div className="relative">
                         <Combobox.Input

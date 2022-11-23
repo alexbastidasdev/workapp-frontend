@@ -429,7 +429,7 @@ const ProyectosProvider = ({children}) => {
     }
 
     const handleBuscador = () => {
-        setBuscador(!buscador)
+        setBuscador(!buscador) 
     }
 
     // Socket io

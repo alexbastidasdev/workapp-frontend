@@ -30,7 +30,9 @@ const AuthProvider = ({children}) => {
                 const { data } = await clienteAxios('/usuarios/perfil', config)
                 setAuth(data)
                 
-                navigate('/proyectos')
+                if(data._id && location.pathname === '/') { // Si el usuario está logueado y está en la página de inicio, lo redirigimos a la página de proyectos
+                    navigate('/proyectos')
+                }
                 
             } catch (error) {
                 setAuth({})
