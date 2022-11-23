@@ -5,9 +5,8 @@ const HeaderPublico = () => {
     return (
         <header className="py-1 px-3 bg-white border-b sticky top-0">
             <div className="md:flex md:justify-between">
-                <Link to="/">
-                    <img src="/logotipo.svg" alt="logotipo" className="px-2 pb-1 w-24" />
-                </Link>
+
+                <img src="../logotipo.svg" alt="logotipo" className="px-2 pb-1 w-24" />
 
                 <div className='flex flex-col md:flex-row items-center gap-6'>
 
