@@ -5,6 +5,7 @@ import useProyectos from '../hooks/useProyectos'
 const ModalEliminarTarea = () => {
 
     const { modalEliminarTarea, handleModalEliminarTarea, eliminarTarea } = useProyectos()
+
  
     return (
         <Transition.Root show={ modalEliminarTarea } as={Fragment}>

@@ -275,6 +275,12 @@ const ProyectosProvider = ({children}) => {
             }
 
             const { data } = await clienteAxios.delete(`/tareas/${tarea._id}`, config)
+
+            const proyectoActualizado = {...proyecto}
+
+            proyectoActualizado.tareas = proyectoActualizado.tareas.filter(tareaState => tareaState._id !== tarea._id)
+
+            setProyecto(proyectoActualizado)
             setAlerta({
                 msg: data.msg,
                 error: false
@@ -286,9 +292,12 @@ const ProyectosProvider = ({children}) => {
             socket.emit('eliminar tarea', tarea)
 
             setTarea({})
+
             setTimeout(() => {
                 setAlerta({})
             }, 3000 )
+
+
 
         } catch (error) {
             console.log(error)
