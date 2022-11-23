@@ -18,9 +18,8 @@ const Header = () => {
     return (
         <header className="py-1 px-2 bg-white border-b sticky top-0">
             <div className="md:flex md:justify-between">
-                <Link to="/proyectos">
-                    <img src="./src/logotipo.svg" alt="logo" className="px-2 pb-1 w-24" />
-                </Link>
+
+                <img src="../logotipo.svg" alt="logotipo" className="px-2 pb-1 w-24" />
 
                 <div className='flex flex-col md:flex-row items-center gap-4'>
                     <button
@@ -30,7 +29,7 @@ const Header = () => {
                     >Buscar Proyecto</button>
                     <Link
                         to="/proyectos"
-                        className='font-bold uppercase text-[#1B053B] hover:text-[#F5C116]' 
+                        className='font-bold uppercase text-[#1B053B] hover:text-[#F5C116]'
                     >Proyectos</Link>
 
                     <button
