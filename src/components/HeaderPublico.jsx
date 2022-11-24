@@ -22,7 +22,6 @@ const HeaderPublico = () => {
                         className='font-bold uppercase text-[#1B053B] hover:text-[#F5C116]'
                     >Registro</Link>
 
-
                 </div>
             </div>
         </header>
