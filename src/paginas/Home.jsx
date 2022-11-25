@@ -16,7 +16,7 @@ const Home = () => {
                                 workApp unifica tus tareas, compañeros de equipo y herramientas
                             </h1>
                             <p className="leading-normal text-2xl mb-8 text-[#1B053B]">
-                                Mantenlo todo en el mismo lugar, aunque tu equipo no lo esté.
+                                Mantenlo todo en el mismo lugar, aunque tu equipo no lo esté.....
                             </p>
 
                             <Link
