@@ -54,20 +54,20 @@ const Home = () => {
                         <div className="w-full">
                             <img className="w-full " src="vista.png" />
                         </div>
-                        </div>
+                        </div><br/>
                         <div className="flex flex-wrap flex-col-reverse sm:flex-row">
-                            <div className="w-full sm:w-1/2 p-6 mt-6">
+                            <div className="md:w-2/4  sm:w-1/2 p-2 mt-6">
                             <img src="tarea.png" alt="" />
                           </div>
-                          <br/><br/>
+                          
                             <div className="w-full sm:w-1/2 p-6 mt-6">
-                                <div className="align-middle">
+                                <div className="align-middle"><br/>
                                     <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">
                                     Funciones para el éxito de tu equipo
-                                    </h3>
+                                    </h3><br/>
                                     <p className="text-gray-600 mb-8 text-justify">
                                     Para garantizar la productividad del equipo se requiere una herramienta eficaz. Para crear Proyectos hasta la definición de objetivos y eventos, con las intuitivas funciones de WoarkApp cualquier equipo puede configurar y personalizar rápidamente flujos de trabajo para casi todo.
-                                        <br /><br/>
+                                        <br /><br/><br/>
                                         
                                         <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">
                                         La Tareas es solo el principio
