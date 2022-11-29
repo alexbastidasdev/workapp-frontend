@@ -65,16 +65,14 @@ const Home = () => {
                                     Funciones para el éxito de tu equipo
                                     </h3>
                                     <p className="text-gray-600 mb-8 text-justify">
-                                    Para garantizar la productividad del equipo se requiere una herramienta eficaz (y mucho café). Desde reuniones y proyectos hasta la definición de objetivos y eventos, con las intuitivas funciones de Trello cualquier equipo puede configurar y personalizar rápidamente flujos de trabajo para casi todo.
+                                    Para garantizar la productividad del equipo se requiere una herramienta eficaz. Para crear Proyectos hasta la definición de objetivos y eventos, con las intuitivas funciones de WoarkApp cualquier equipo puede configurar y personalizar rápidamente flujos de trabajo para casi todo.
                                         <br /><br/>
                                         
                                         <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">
                                         La Tareas es solo el principio
                                         </h3>                               
                                     </p>
-                                    <p className="text-gray-600 mb-8 text-justify">
-                                    Para garantizar la productividad del equipo se requiere una herramienta eficaz (y mucho café). Desde reuniones y proyectos hasta la definición de objetivos y eventos, con las intuitivas funciones de Trello cualquier equipo puede configurar y personalizar rápidamente flujos de trabajo para casi todo.
-                                        <br /></p>
+                                    
                                 </div>
                                 <p className="text-gray-600 mb-8 text-justify">
                                 Las tareas de WorkApp son tu pasaporte a un trabajo más organizado, ya que permiten gestionar, supervisar y compartir con el equipo todas las partes de una tarea. Abre cualquier tareas para descubrir un ecosistema de checklists, fechas de vencimiento, adjuntos, conversaciones y mucho más.
