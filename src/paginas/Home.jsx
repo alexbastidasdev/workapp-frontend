@@ -37,15 +37,14 @@ const Home = () => {
                         <h2 className="w-full my-2 text-4xl font-bold leading-tight text-center text-[#4B1D89]">
                             No solo es trabajo. Es una forma de trabajar juntos.
                         </h2>
-                        
+                        <br/>
                         <div className="flex flex-wrap">
-                            <div className="w-5/6 sm:w-1/2 p-6">
-                                <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">
+                            <div>
+                                <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3 text-justify">
                                 Empieza creando tu proyecto, crea tareas,  colaboradores con WorkApp. 
                                 </h3>
                                 <p className="text-gray-600 mb-8 text-justify">
-                                Personaliza y amplía 
-                                con más funciones tu trabajo en equipo a su mismo ritmo. 
+                                Personaliza y amplía con más funciones tu trabajo en equipo a su mismo ritmo. 
                                 Gestiona proyectos, organiza tareas y crea espíritu de equipo, en un solo lugar.<br />
                                     <br />
                                     </p>
@@ -84,7 +83,7 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
-                
+               
                 
               
             </div>
