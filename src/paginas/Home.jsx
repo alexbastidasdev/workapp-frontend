@@ -70,7 +70,7 @@ const Home = () => {
                                         <br /><br/>
                                         
                                         <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">
-                                        El tablero es solo el principio
+                                        La Tareas es solo el principio
                                         </h3>                               
                                     </p>
                                     <p className="text-gray-600 mb-8 text-justify">
